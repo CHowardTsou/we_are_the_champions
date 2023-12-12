@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    color: #FFFFFF;
+    user-select: none;
+}
+
+.logo {
+    height: 90px;
+    width: 90px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+
+
+#inputarea {
+    font-family: 'Inter', sans-serif; 
+    width: 285px;
+    height: 120px;
+    background: #444059;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+    padding: 12px 19px;
+    margin-left: 36px;
+    margin-right: 36px;
+    
+}
+
+.fromTo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    font-family: 'Inter', sans-serif;
+    width: 150px;
+    height: 40px;
+    margin-left: 7px;
+    margin-right: 7px;
+    text-align: center;
+    background: #444059;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+
+button {
+    width: 320px;
+    height: 60px;
+    background: #28A9F1;
+    color: #04131C;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+.display {
+    width: 320px;
+    font-family: 'Inter', sans-serif;
+    color: #1B1924;
+    padding: 5px;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 13px;
+}
